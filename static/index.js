@@ -194,6 +194,7 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             id: "tap"
         });
         gameRestart();
+        refreshSize();
     }
 
     function gameRestart() {
